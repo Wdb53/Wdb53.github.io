@@ -9,18 +9,19 @@ body {
 }
 
 header {
-  height: 2rem;
+  height: 3rem;
   background-color: red;
   position: sticky;
   top: 0;
   display: flex;
-  flex: 1 0 auto;
-  line-height: 2em;
+  flex: 1 0 1;
+  line-height: 3em;
 }
 
 header ul {
   list-style: none;
   display: flex;
+  padding-right: 2em;
 }
 
 header li {
@@ -29,7 +30,7 @@ header li {
 
 header a {
   cursor: pointer;
-  padding: 0 0.4em;
+  padding: 0 2em;
   background: purple;
 }
 
@@ -38,23 +39,44 @@ header a:hover {
   background: white;
 }
 
+.logo {
+    padding-left: 2em;
+
+}
+
 .HeroSpace {
   display: flex;
-  /* background: greenyellow; */
-  padding: 0 10vw;
+  background: url(/images/Hero\ Image\ 2.jpg);
+  background-size: cover;
+  padding: 0 15vw;
+  height: 80rem;
 }
 
 .HeroText {
   font-size: 1rem;
   line-height: 1.25em;
-  /* background-color: aqua; */
+   background-color: rgba(15, 15, 15, 0.74); 
   width: 22rem;
   max-width: 100%;
+  padding-left: .5em;
+  color:white;
+  height: 17rem;
+  margin-top: 3rem;
+
+  
 }
 
 .HeroText p {
   margin: 1em 0;
 }
+
+.myworkspacer {
+    padding-top: 2rem;
+    align-self: center;
+
+}
+
+
 
 /*
 .nav {
