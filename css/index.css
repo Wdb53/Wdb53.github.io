@@ -1,13 +1,62 @@
 html {
-    background-color: #ffffff;
+  font-size: 16px;
+  background-color: pink;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    height: 70px;
-    
+  height: 2rem;
+  background-color: red;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex: 1 0 auto;
+  line-height: 2em;
 }
 
+header ul {
+  list-style: none;
+  display: flex;
+}
 
+header li {
+  display: flex;
+}
+
+header a {
+  cursor: pointer;
+  padding: 0 0.4em;
+  background: purple;
+}
+
+header a:hover {
+  color: green;
+  background: white;
+}
+
+.HeroSpace {
+  display: flex;
+  /* background: greenyellow; */
+  padding: 0 10vw;
+}
+
+.HeroText {
+  font-size: 1rem;
+  line-height: 1.25em;
+  /* background-color: aqua; */
+  width: 22rem;
+  max-width: 100%;
+}
+
+.HeroText p {
+  margin: 1em 0;
+}
+
+/*
 .nav {
     position: fixed;
     list-style-type: none;
@@ -18,7 +67,7 @@ header {
     transition: transform 0.4s;
     right: 0;
     top: 0;
-   
+
 }
 
 
@@ -27,8 +76,8 @@ header {
 .logo {
     display: block;
     padding-left: 25px;
-    
-    
+
+
 }
 
 li {
@@ -50,7 +99,7 @@ li a {
 li a:hover {
     color: rgb(4, 239, 247);
     transform: translateY(-2px);
-    
+
 }
 
 .logo {
@@ -69,7 +118,7 @@ li a:hover {
     background-size: cover;
     z-index: 1;
 
-    
+
 }
 
 .HeroTextBox {
@@ -95,8 +144,8 @@ li a:hover {
     word-wrap: normal;
     color: #ebe7e7;
     z-index: 2;
-    
-        
+
+
 }
 
 h2 {
@@ -121,7 +170,7 @@ h3 {
     font-weight: 500;
     font-style: normal;
     font-size: 20pt;
-    
+
 }
 
 h4 {
@@ -130,7 +179,7 @@ h4 {
     font-weight: 500;
     font-style: normal;
     font-size: 16pt;
-   
+
 }
 
 .AdoptText {
@@ -148,7 +197,7 @@ h4 {
     color:#707070;
     font-family: ofelia-text, sans-serif;
 
-    
+
 
 }
 
@@ -166,7 +215,7 @@ h4 {
     font-weight: 500;
     font-style: normal;
     font-size: 16pt;
-   
+
 }
 
 .hr {
@@ -178,4 +227,4 @@ h4 {
 .AdoptRight {
     padding-top: 170px;
 }
-
+ */
