@@ -117,18 +117,7 @@ header a:hover {
 
 
 /*
-.nav {
-    position: fixed;
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-    z-index: 2;
-    transition: transform 0.4s;
-    right: 0;
-    top: 0;
 
-}
 
 
 
