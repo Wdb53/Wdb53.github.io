@@ -1,6 +1,9 @@
 html {
   font-size: 16px;
-  background-color: pink;
+  background-color: rgb(255, 255, 255);
+  font-family: articulat-regular-cf, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 body {
@@ -10,7 +13,7 @@ body {
 
 header {
   height: 3rem;
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
   display: flex;
@@ -31,7 +34,7 @@ header li {
 header a {
   cursor: pointer;
   padding: 0 2em;
-  background: purple;
+  background: rgb(255, 255, 255);
 }
 
 header a:hover {
@@ -46,32 +49,67 @@ header a:hover {
 
 .HeroSpace {
   display: flex;
-  background: url(/images/Hero\ Image\ 2.jpg);
+  background: url(/images/Lake\ Blanche.jpg);
   background-size: cover;
   padding: 0 15vw;
-  height: 80rem;
+  height: 50rem;
 }
 
 .HeroText {
   font-size: 1rem;
   line-height: 1.25em;
-   background-color: rgba(15, 15, 15, 0.74); 
-  width: 22rem;
+  width: 60rem;
   max-width: 100%;
   padding-left: .5em;
   color:white;
-  height: 17rem;
-  margin-top: 3rem;
+  height: 40rem;
+  margin-top: 35rem;
+  text-shadow: 2px 3px 4px rgba(0,0,0,0.65);
 
   
 }
 
-.HeroText p {
-  margin: 1em 0;
+.heroname {
+    font-size: 4rem;
+    padding-left: .5rem;
 }
 
+.herodesign {
+    font-size: 8rem;
+    padding-top: 3.5rem;
+    
+}
+
+.nutshell {
+    float:left;
+    max-width: 40rem;
+    padding-left: 4rem;
+    padding-top: 6rem;
+}
+
+.nutshelllinks {
+ display: flex;
+ max-width: 20rem;
+}
+
+
+
+.skills {
+    float:right;
+    max-width: 40rem;
+    padding-right: 4rem;
+    padding-top: 6rem;
+}
+
+.skillslist {
+    display:flex;
+    justify-content: flex-start;
+    max-width: 40rem;
+  }
+
+
 .myworkspacer {
-    padding-top: 2rem;
+    padding-top: 8rem;
     align-self: center;
 
 }
