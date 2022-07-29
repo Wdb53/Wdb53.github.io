@@ -51,7 +51,7 @@ header a:hover {
 
 .HeroSpace {
   display: flex;
-  background: url(/images/Lake\ Blanche.jpg);
+  background: url('../images/Lake\ Blanche.jpg');
   background-size: cover;
   padding: 0 15vw;
   height: 50rem;
@@ -68,7 +68,7 @@ header a:hover {
   margin-top: 35rem;
   text-shadow: 2px 3px 4px rgba(0,0,0,0.65);
 
-  
+
 }
 
 .heroname {
@@ -79,7 +79,7 @@ header a:hover {
 .herodesign {
     font-size: 8rem;
     padding-top: 3.5rem;
-    
+
 }
 
 .nutshell {
