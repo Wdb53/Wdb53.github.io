@@ -58,7 +58,7 @@ header a:hover {
 }
 
 .HeroText {
-  font-size: 1rem;
+  font-size: 2vw;
   line-height: 1.25em;
   width: 60rem;
   max-width: 100%;
@@ -72,14 +72,13 @@ header a:hover {
 }
 
 .heroname {
-    font-size: 4rem;
-    padding-left: .5rem;
+  font-size: 2em;
+  padding-left: .5em;
 }
 
 .herodesign {
-    font-size: 8rem;
-    padding-top: 3.5rem;
-
+  font-size: 3em;
+  padding-top: 0.5em;
 }
 
 .nutshell {
