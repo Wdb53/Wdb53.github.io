@@ -1,47 +1,47 @@
 html {
-  font-size: 16px;
-  background-color: rgb(255, 255, 255);
-  font-family: articulat-regular-cf, sans-serif;
-  font-weight: 900;
-  font-style: normal;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    font-family: articulat-regular-cf, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-  height: 3rem;
-  background-color: rgb(255, 255, 255);
-  position: sticky;
-  top: 0;
-  display: flex;
-  flex: 1 0 1;
-  line-height: 3em;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex: 1 0 1;
+    line-height: 3em;
 }
 
 
 
 header ul {
-  list-style: none;
-  display: flex;
-  padding-right: 2em;
+    list-style: none;
+    display: flex;
+    padding-right: 2em;
 }
 
 header li {
-  display: flex;
+    display: flex;
 }
 
 header a {
-  cursor: pointer;
-  padding: 0 2em;
-  background: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0 2em;
+    background: rgb(255, 255, 255);
 }
 
 header a:hover {
-  color: green;
-  background: white;
+    color: green;
+    background: white;
 }
 
 .logo {
@@ -50,63 +50,63 @@ header a:hover {
 }
 
 .HeroSpace {
-  display: flex;
-  background: url('../images/Lake\ Blanche.jpg');
-  background-size: cover;
-  padding: 0 15vw;
-  height: 50rem;
+    display: flex;
+    background: url('../images/Lake\ Blanche.jpg');
+    background-size: cover;
+    padding: 0 15vw;
+    height: 50rem;
 }
 
 .HeroText {
-  font-size: 2vw;
-  line-height: 1.25em;
-  width: 60rem;
-  max-width: 100%;
-  padding-left: .5em;
-  color:white;
-  height: 40rem;
-  margin-top: 35rem;
-  text-shadow: 2px 3px 4px rgba(0,0,0,0.65);
+    font-size: 2vw;
+    line-height: 1.25em;
+    width: 60rem;
+    max-width: 100%;
+    padding-left: .5em;
+    color: white;
+    height: 40rem;
+    margin-top: 35rem;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.65);
 
 
 }
 
 .heroname {
-  font-size: 2em;
-  padding-left: .5em;
+    font-size: 2em;
+    padding-left: .5em;
 }
 
 .herodesign {
-  font-size: 3em;
-  padding-top: 0.5em;
+    font-size: 3em;
+    padding-top: 0.5em;
 }
 
 .nutshell {
-    float:left;
+    float: left;
     max-width: 40rem;
     padding-left: 4rem;
     padding-top: 6rem;
 }
 
 .nutshelllinks {
- display: flex;
- max-width: 20rem;
+    display: flex;
+    max-width: 20rem;
 }
 
 
 
 .skills {
-    float:right;
+    float: right;
     max-width: 40rem;
     padding-right: 4rem;
     padding-top: 6rem;
 }
 
 .skillslist {
-    display:flex;
+    display: flex;
     justify-content: flex-start;
     max-width: 40rem;
-  }
+}
 
 
 .myworkspacer {
